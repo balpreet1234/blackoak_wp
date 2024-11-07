@@ -1,0 +1,985 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Disclub - Night Club, DJ & Events Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/contact\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/404\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQs",
+            "screenshot": "screenshots\/faqs.jpg",
+            "source": "templates\/faqs.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Events",
+            "screenshot": "screenshots\/events.jpg",
+            "source": "templates\/events.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/events\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Reservation",
+            "screenshot": "screenshots\/reservation.jpg",
+            "source": "templates\/reservation.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/reservation\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Ticket",
+            "screenshot": "screenshots\/ticket.jpg",
+            "source": "templates\/ticket.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/ticket\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/template-kit\/gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Disclub Archives",
+            "screenshot": "screenshots\/disclub-archives.jpg",
+            "source": "templates\/disclub-archives.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/?elementor_library=elementor-archive-552",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Clockpart Orange Return To VIP",
+            "screenshot": "screenshots\/clockpart-orange-return-to-vip.jpg",
+            "source": "templates\/clockpart-orange-return-to-vip.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/?elementor_library=elementor-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Disclubb Header",
+            "screenshot": "screenshots\/disclubb-header.jpg",
+            "source": "templates\/disclubb-header.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/?elementor_library=elementor-header-90",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Disclubb Footer",
+            "screenshot": "screenshots\/disclubb-footer.jpg",
+            "source": "templates\/disclubb-footer.json",
+            "preview_url": "https:\/\/dkkit.rometheme.pro\/disclubb\/?elementor_library=disclubb-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.7.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.7.7",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "attractive-blonde-dj-woman-standing-in-headphones-WCDDPLQb.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/attractive-blonde-dj-woman-standing-in-headphones-WCDDPLQb-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 523348,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "young-girl-holding-drug-pills-on-togue-in-front-of-TLAHXNY.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/young-girl-holding-drug-pills-on-togue-in-front-of-TLAHXNY-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 280430,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "multiracial-young-friends-dancing-at-night-club-DDA9D25a.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/multiracial-young-friends-dancing-at-night-club-DDA9D25a-800x250.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 257473,
+            "dimensions": [
+                1920,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "Barcode.png",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/Barcode.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/ticket.json",
+                    "name": "Ticket"
+                }
+            ],
+            "filesize": 8812,
+            "dimensions": [
+                300,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "dj-spinning-disks-at-the-night-club-closeup-on-han-6KYTQS4.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/dj-spinning-disks-at-the-night-club-closeup-on-han-6KYTQS4-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 413071,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "Icon1.png",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/Icon1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 9145,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Icon2.png",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/Icon2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 16448,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Icon3.png",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/Icon3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 23051,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Icon4.png",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/Icon4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 15632,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "club-dj-flyer-template-KMC2KYMb.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/club-dj-flyer-template-KMC2KYMb.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 79787,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "only-by-the-night-flyer-poster-SF6TF4.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/only-by-the-night-flyer-poster-SF6TF4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 62722,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "dj-event-party-flyer-CDZWJ2J.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/dj-event-party-flyer-CDZWJ2J.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 136395,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "dj-club-flyer-template-W6KMUR5.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/dj-club-flyer-template-W6KMUR5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 279476,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "dj-party-flyer-7GJS3XB.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/dj-party-flyer-7GJS3XB.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 458562,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "candid-portrait-of-young-beautiful-long-hair-girl-5B8BHT3.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/candid-portrait-of-young-beautiful-long-hair-girl-5B8BHT3-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 561705,
+            "dimensions": [
+                1875,
+                1875
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "cyberpunk-equalizers-GQPGYC8b.png",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/cyberpunk-equalizers-GQPGYC8b-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 117968,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "Quote-Icon2.png",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/Quote-Icon2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 32618,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "dj-doing-record-scratching-in-nightclub-733KAL3a.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/dj-doing-record-scratching-in-nightclub-733KAL3a.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/reservation.json",
+                    "name": "Reservation"
+                },
+                {
+                    "source": "templates\/ticket.json",
+                    "name": "Ticket"
+                }
+            ],
+            "filesize": 195684,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "young-people-celebrating-in-nightclub-D4XD4TR.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/young-people-celebrating-in-nightclub-D4XD4TR-800x250.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 332481,
+            "dimensions": [
+                1920,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "young-stylish-couple-wearing-warm-clothes-standing-LR5R376.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/young-stylish-couple-wearing-warm-clothes-standing-LR5R376.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 176680,
+            "dimensions": [
+                600,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "beautiful-asian-japanese-girl-street-portraits-EZCYNFX.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/beautiful-asian-japanese-girl-street-portraits-EZCYNFX.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 195058,
+            "dimensions": [
+                600,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "portrait-of-woman-holding-drink-at-party-TBBLMLX.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/portrait-of-woman-holding-drink-at-party-TBBLMLX.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 122549,
+            "dimensions": [
+                600,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "silhouette-of-a-crowd-on-a-party-ABMMWZW.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/silhouette-of-a-crowd-on-a-party-ABMMWZW-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 326542,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "looking-far-away-studio-shot-in-dark-studio-with-n-MBN63Y3.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/looking-far-away-studio-shot-in-dark-studio-with-n-MBN63Y3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 90964,
+            "dimensions": [
+                600,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "asian-woman-in-the-city-at-night-FF5B7RH.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/asian-woman-in-the-city-at-night-FF5B7RH.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 116010,
+            "dimensions": [
+                600,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "young-beautiful-man-with-curly-hair-is-indoors-in-YAZ8F5M.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/young-beautiful-man-with-curly-hair-is-indoors-in-YAZ8F5M.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 170454,
+            "dimensions": [
+                600,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "disco-entertainment-7884R3A.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/disco-entertainment-7884R3A-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 454674,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "woman-with-headphones-PFGVPBV.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/woman-with-headphones-PFGVPBV-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 425301,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "three-gentlemans-in-suit-at-night-club-YZJ8LZJ.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/three-gentlemans-in-suit-at-night-club-YZJ8LZJ-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 270276,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "barman-is-making-cocktail-at-night-club-Y87KT9E.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/barman-is-making-cocktail-at-night-club-Y87KT9E-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 454296,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "fun-in-nightclub-DY5HH6K.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/fun-in-nightclub-DY5HH6K-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 275135,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "crowd-at-concert-P49H2VC.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/crowd-at-concert-P49H2VC-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 207496,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        },
+        {
+            "filename": "Disclub-logo-2.png",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/Disclub-logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/disclubb-header.json",
+                    "name": "Disclubb Header"
+                },
+                {
+                    "source": "templates\/disclubb-footer.json",
+                    "name": "Disclubb Footer"
+                }
+            ],
+            "filesize": 5021,
+            "dimensions": [
+                350,
+                78
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "silhouette-of-a-crowd-on-a-party-ABMMWZW-1.jpg",
+            "thumbnail_url": "http:\/\/dkkit.rometheme.pro\/disclubb\/wp-content\/uploads\/sites\/64\/2022\/09\/silhouette-of-a-crowd-on-a-party-ABMMWZW-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/disclubb-footer.json",
+                    "name": "Disclubb Footer"
+                }
+            ],
+            "filesize": 326542,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/95QZUVBCH3"
+        }
+    ]
+}
